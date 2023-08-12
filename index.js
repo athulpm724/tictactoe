@@ -124,11 +124,11 @@ function winner(){
     console.log(b1.innerHTML);
     circle=`<i class="fa-regular fa-circle fa-2xl" style="color: #000000;"></i>`;
     x=`<i class="fa-solid fa-x fa-2xl" style="color: #ff0000;"></i>`;
-    if(b1.innerHTML==circle & b2.innerHTML==circle & b3.innerHTML==circle|| b1.innerHTML==circle &b4.innerHTML==circle &b7.innerHTML==circle || b4.innerHTML==circle &b5.innerHTML==circle &b6.innerHTML==circle || b7.innerHTML==circle &b8.innerHTML==circle &b9.innerHTML==circle || b2.innerHTML==circle &b6.innerHTML==circle &b8.innerHTML==circle || b3.innerHTML==circle & b6.innerHTML==circle & b9.innerHTML==circle || b1.innerHTML==circle & b5.innerHTML==circle & b9.innerHTML==circle || b3.innerHTML==circle & b5.innerHTML==circle & b7.innerHTML==circle){
+    if(b1.innerHTML==circle & b2.innerHTML==circle & b3.innerHTML==circle|| b1.innerHTML==circle &b4.innerHTML==circle &b7.innerHTML==circle || b4.innerHTML==circle &b5.innerHTML==circle &b6.innerHTML==circle || b7.innerHTML==circle &b8.innerHTML==circle &b9.innerHTML==circle || b2.innerHTML==circle &b6.innerHTML==circle &b8.innerHTML==circle || b3.innerHTML==circle & b6.innerHTML==circle & b9.innerHTML==circle || b1.innerHTML==circle & b5.innerHTML==circle & b9.innerHTML==circle || b3.innerHTML==circle & b5.innerHTML==circle & b7.innerHTML==circle || b2.innerHTML==circle &b5.innerHTML==circle &b8.innerHTML==circle ){
         alert("ZERO WINS!");
         location.reload();
     }
-    else if(b1.innerHTML==x & b2.innerHTML==x & b3.innerHTML==x || b1.innerHTML==x & b4.innerHTML==x & b7.innerHTML==x || b4.innerHTML==x & b5.innerHTML==x & b6.innerHTML==x || b7.innerHTML==x & b8.innerHTML==x & b9.innerHTML==x || b2.innerHTML==x & b6.innerHTML==x & b8.innerHTML==x || b3.innerHTML==x & b6.innerHTML==x & b9.innerHTML==x || b1.innerHTML==x & b5.innerHTML==x & b9.innerHTML==x || b3.innerHTML==x & b5.innerHTML==x & b7.innerHTML==x){
+    else if(b1.innerHTML==x & b2.innerHTML==x & b3.innerHTML==x || b1.innerHTML==x & b4.innerHTML==x & b7.innerHTML==x || b4.innerHTML==x & b5.innerHTML==x & b6.innerHTML==x || b7.innerHTML==x & b8.innerHTML==x & b9.innerHTML==x || b2.innerHTML==x & b6.innerHTML==x & b8.innerHTML==x || b3.innerHTML==x & b6.innerHTML==x & b9.innerHTML==x || b1.innerHTML==x & b5.innerHTML==x & b9.innerHTML==x || b3.innerHTML==x & b5.innerHTML==x & b7.innerHTML==x || b2.innerHTML==x & b5.innerHTML==x & b8.innerHTML==x ){
     
         alert("X WINS!");
         location.reload();
